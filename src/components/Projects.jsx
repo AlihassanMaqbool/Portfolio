@@ -187,68 +187,65 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { ExternalLink, Github, X, Code2, Calendar, Layers, ArrowUpRight } from "lucide-react";
+import  image1  from "../assets/1.png"; 
+import  image2  from "../assets/2.png"; 
+import  image3  from "../assets/3.png"; 
+import  image4  from "../assets/4.png"; 
 
-const projectImages = {
-  portfolio: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-  ecommerce: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-  blog: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
-  task: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
-  ai: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-  social: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80"
-};
+
 
 // Enhanced project data with more details
 const projectData = [
   {
     id: 1,
-    title: "Portfolio Website",
-    img: projectImages.portfolio,
+    title: "Gaming Website",
+    img: image1,
     category: "Frontend",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     desc: "A stunning portfolio website featuring smooth scroll animations, dark mode support, and responsive design. Built with performance and accessibility in mind.",
-    link: "#",
-    github: "#",
-    date: "2024",
+    link: "https://gaming-website-ali-dev.vercel.app/",
+    github: "https://github.com/AlihassanMaqbool",
+    date: "2025",
     status: "Completed",
     color: "from-blue-500 to-cyan-400"
   },
   {
     id: 2,
-    title: "E-commerce App",
-    img: projectImages.ecommerce,
+    title: "Movie Box App",
+    img: image2,
     category: "Full Stack",
-    tech: ["Next.js", "Node.js", "MongoDB", "Stripe"],
+    tech: ["React.js", "Node.js", "Supabase", "Stripe"],
     desc: "Full-featured online store with real-time inventory, secure payment processing, and advanced filtering. Includes admin dashboard and analytics.",
-    link: "#",
-    github: "#",
-    date: "2024",
+    link: "https://movie-box-ali-dev.vercel.app/",
+    github: "https://github.com/AlihassanMaqbool",
+    date: "2025",
     status: "Live",
     color: "from-purple-500 to-pink-500"
   },
   {
     id: 3,
-    title: "Blog Platform",
-    img: projectImages.blog,
-    category: "CMS",
-    tech: ["React", "GraphQL", "PostgreSQL"],
+    title: "Notes App",
+    img: image3,
+    category: "Full Stack",
+    tech: ["React.js", "Supabase", "node.js"],
     desc: "Modern blogging platform with markdown support, SEO optimization, and automated newsletter delivery. Features custom CMS and analytics dashboard.",
-    link: "#",
-    github: "#",
-    date: "2023",
+    link: "https://notes-app-ali-dev.vercel.app/",
+    github: "https://github.com/AlihassanMaqbool",
+    date: "2025",
     status: "Completed",
     color: "from-orange-500 to-red-500"
   },
   {
     id: 4,
-    title: "Task Manager",
-    img: projectImages.task,
-    category: "Productivity",
-    tech: ["Vue.js", "Firebase", "PWA"],
+    title: "Education Manager Pro",
+    img: image4,
+    category: "Full Stack",
+    tech: ["React.js", "Supabase", "node.js"],
     desc: "Progressive web app for task management with offline support, real-time sync, and collaborative features. Includes drag-and-drop interface.",
-    link: "#",
-    github: "#",
-    date: "2023",
-    status: "Beta",
+    link: "https://education-manager-pro-ali-dev.vercel.app/",
+    github: "https://github.com/AlihassanMaqbool",
+    date: "2025",
+    status: "Completed",
     color: "from-green-500 to-emerald-400"
   },
   // {
@@ -661,7 +658,7 @@ const ProjectModal = ({ project, onClose }) => {
                   Live Demo
                 </a>
                 <a
-                  href={project.github}
+                  href="https://github.com/AlihassanMaqbool"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white rounded-xl font-semibold hover:bg-gray-200 dark:hover:bg-gray-700 transition-all border border-gray-200 dark:border-gray-700 cursor-none"

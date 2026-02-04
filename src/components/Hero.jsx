@@ -172,7 +172,7 @@ const Hero = () => {
       <motion.div
         animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
         transition={{ duration: 12, repeat: Infinity }}
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-[length:200%_200%] opacity-20"
+        className="absolute inset-0 -z-10 bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 bg-size-[200%_200%] opacity-20"
       />
 
       {/* CONTENT */}
