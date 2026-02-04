@@ -65,7 +65,7 @@ export default function App() {
         <Particles
           quantity={500}
           number={50}
-          className="absolute inset-0 text-gray-900 dark:text-white"
+          className="absolute inset-0 z-50 text-gray-900 dark:text-white"
         />
         <Pointer />
 
