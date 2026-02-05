@@ -122,6 +122,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import StarsBackground from "./StarsBackground";
+import aliimg from "@/assets/alihassan.jpg";
 // import StarsBackground from "./components/StarsBackground";
 
 
@@ -226,7 +227,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-blue-500 blur-3xl opacity-40 rounded-full" />
             <img
-              src="/profile.png"
+              src={aliimg}
               alt="Profile"
               className="relative w-80 h-80 md:w-96 md:h-96 rounded-full object-cover border-4 border-blue-500 shadow-2xl"
             />
