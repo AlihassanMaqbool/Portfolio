@@ -59,7 +59,7 @@ export default function App() {
   return (
     <div className={dark ? "dark" : ""}>
         
-      <div className="relative min-h-screen overflow-hidden bg-white text-gray-900 transition dark:bg-gray-950 dark:text-white">
+      <div className="relative min-h-screen overflow-hidden bg-white text-gray-900 transition dark:bg-gray-950 dark:text-white md:flex-none">
 
         {/* Background Particles */}
         <Particles
