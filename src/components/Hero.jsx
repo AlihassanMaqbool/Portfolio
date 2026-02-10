@@ -201,8 +201,8 @@ const Hero = () => {
           <div className="mt-8 flex gap-4 flex-wrap">
             <a
               href="/Ali_Hassan_CV.pdf"
-              download
-                target="_blank"
+              download="Ali_Hassan_CV.pdf"
+              target="_blank"
               className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 cursor-none  transition hover:scale-105"
             >
               📄 Download CV
