@@ -202,6 +202,7 @@ const Hero = () => {
             <a
               href="/Ali_Hassan_CV.pdf"
               download
+                target="_blank"
               className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 cursor-none  transition hover:scale-105"
             >
               📄 Download CV
