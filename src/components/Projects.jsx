@@ -191,6 +191,7 @@ import  image1  from "../assets/1.png";
 import  image2  from "../assets/2.png"; 
 import  image3  from "../assets/3.png"; 
 import  image4  from "../assets/4.png"; 
+import  image5  from "../assets/5.png"; 
 
 
 
@@ -248,6 +249,20 @@ const projectData = [
     status: "Completed",
     color: "from-green-500 to-emerald-400"
   },
+  {
+  id: 5,
+  title: "Photo Editor App",
+  img: image5, // yahan apni photo editor image import karo
+  category: "Frontend",
+  tech: ["React.js", "Tailwind CSS", "Canvas API"],
+  desc: "Modern photo editing web app with filters, brightness/contrast controls, cropping, and image download feature. Fully responsive and user-friendly interface.",
+  link: "https://my-app-ali-dev.vercel.app/",
+  github: "https://github.com/AlihassanMaqbool/photo-editor-app",
+  date: "2025",
+  status: "Completed",
+  color: "from-pink-500 to-purple-500"
+},
+
   // {
   //   id: 5,
   //   title: "AI Dashboard",
